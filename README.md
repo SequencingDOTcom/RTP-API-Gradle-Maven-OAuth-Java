@@ -9,11 +9,11 @@ Want to see it in action? A demo of the oAuth2 code is available here: https://o
 
 oAuth2 code is also available in the following languages: 
 
-* [Android (code without Maven)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/android)
+* [Android (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/android)
 * [Objective-C (CocoaPod plugin)](https://github.com/SequencingDOTcom/CocoaPod-plugin-for-OAuth2-plus-File-Selector)
-* [Objective-C (code without CocoaPod)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/objective-c)
-* Swift (CocoaPod plugin)
-* [Swift (code without CocoaPod](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/swift)
+* [Objective-C (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/objective-c)
+* Swift (CocoaPods plugin)
+* [Swift (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/swift)
 * [PHP](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/php)
 * [Perl](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/perl)
 * [Python (Django)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/python-django)
