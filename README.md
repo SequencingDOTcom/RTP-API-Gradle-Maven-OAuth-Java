@@ -10,7 +10,7 @@ Want to see it in action? A demo of the oAuth2 code is available here: https://o
 oAuth2 code is also available in the following languages: 
 
 * [Android (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/android)
-* [Objective-C (CocoaPod plugin)](https://github.com/SequencingDOTcom/CocoaPod-plugin-for-OAuth2-plus-File-Selector)
+* [Objective-C (CocoaPods plugin)](https://github.com/SequencingDOTcom/CocoaPod-plugin-for-OAuth2-plus-File-Selector)
 * [Objective-C (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/objective-c)
 * Swift (CocoaPods plugin)
 * [Swift (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/swift)
