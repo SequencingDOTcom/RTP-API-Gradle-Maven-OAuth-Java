@@ -1,4 +1,4 @@
-# Maven plugin for quickly adding Sequencing.com's OAuth2 and File Selector to all Objective-C apps
+# Maven plugin for quickly adding Sequencing.com's OAuth2 and File Selector to Android apps
 
 =========================================
 This repo contains a Maven plugin that will quickly add Sequencing.com's oAuth2 authentication and File Selector to your Android app. This will allow your app to securely connect to and use Sequencing.com's APIs and [App Chains](https://sequencing.com/app-chains/). 
