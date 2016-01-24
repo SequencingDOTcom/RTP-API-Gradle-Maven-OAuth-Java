@@ -7,7 +7,7 @@ This pod also includes a modifiable GUI that allows app users to select a file s
 
 Want to see it in action? A demo of the oAuth2 code is available here: https://oauth-demo.sequencing.com/
 
-oAuth2 code is also available in the following languages: 
+OAuth2 code is also available in the following languages: 
 
 * [Android (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/android)
 * [Objective-C (CocoaPods plugin)](https://github.com/SequencingDOTcom/CocoaPod-plugin-for-OAuth2-plus-File-Selector)
@@ -34,9 +34,9 @@ Contents
 
 Introduction
 =========================================
-The code in this repo can be used to quickly implement oAuth2 authentication for [Sequencing.com](https://sequencing.com)'s API. By adding oAuth2 authentication to your app, you'll then be able to use Sequencing.com's API to ehance your app with Real-Time Personalization.
+The code in this repo can be used to quickly implement OAuth2 authentication for [Sequencing.com](https://sequencing.com)'s API. By adding OAuth2 authentication to your app, you'll then be able to use Sequencing.com's API to ehance your app with Real-Time Personalization.
 
-The code has also been deployed and can be accessed online as an [oAuth2 demo](https://oauth-demo.sequencing.com/).
+The code has also been deployed and can be accessed online as an [OAuth2 demo](https://oauth-demo.sequencing.com/).
 * A end-user validates using thier Sequencing.com login and, if successfull, the demo will provide a list of genetic data files from the user's account at Sequencing.com.
 * The demo will display a list of sample files if a user doesn't yet have access to his or her genetic data. These sample files are real genetic data files and are available for free for apps that use Sequencing.com's API.
 
