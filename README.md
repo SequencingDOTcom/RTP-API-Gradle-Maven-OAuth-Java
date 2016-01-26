@@ -5,10 +5,15 @@ This repo contains a Maven plugin that will quickly add Sequencing.com's oAuth2 
 
 This pod also includes a modifiable GUI that allows app users to select a file stored in their Sequencing.com account. The genetic data in the selected file will then be used to provide your app with actionable information that is tailored to your app user's genes.
 
+This Maven plugin can be found here: 
+* https://repo1.maven.org/maven2/com/sequencing/oauth2-core/1.0/
+* http://search.maven.org/#artifactdetails%7Ccom.sequencing%7Coauth2-core%7C1.0%7Cjar
+
 Want to see it in action? A demo of the oAuth2 code is available here: https://oauth-demo.sequencing.com/
 
 OAuth2 code is also available in the following languages: 
 
+* [Android (Maven plugin)](https://github.com/SequencingDOTcom/Maven-plugin-provides-OAuth2-and-File-Selector) <- this repo
 * [Android (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/android)
 * [Objective-C (CocoaPods plugin)](https://github.com/SequencingDOTcom/CocoaPod-plugin-for-OAuth2-plus-File-Selector)
 * [Objective-C (code)](https://github.com/SequencingDOTcom/oAuth2-code-and-demo/tree/master/objective-c)
