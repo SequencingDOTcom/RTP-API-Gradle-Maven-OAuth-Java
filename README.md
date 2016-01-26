@@ -55,9 +55,9 @@ To pop this CocoaPod into your app:
 
 2) [Generate a Sequencing.com OAuth2 secret](https://sequencing.com/api-secret-generator) for your app
 
-3) Add this Maven plugin to your Android app and then insert the OAuth2 secret
+3) Add this [Maven plugin](https://repo1.maven.org/maven2/com/sequencing/oauth2-core/1.0/) to your Android app and insert OAuth2 secret
 
-Once you've popped this plugin into your app, select one or more [app chains](https://sequencing.com/app-chains/). App chains analyze your app users genes and provide a response to your app that contains actionable information. 
+Once you've popped this plugin into your app, add one or more App Chains that will provide your app with actionable information obtained from your app user's genes. Your app will be able to use this informamtion to provide a highly personalized UX for each user.
 
 App chains
 ======================================
