@@ -203,8 +203,7 @@ public class AuthenticationParameters
 				messageDigest.update(randomStr.getBytes("UTF8"));
 				resultByte = messageDigest.digest();
 			} catch (Exception e) {
-				log.debug("Error generate md5 hash code", e);
-				e.printStackTrace();
+				throw new RuntimeException(e);
 			}
 			return new String(Hex.encodeHex(resultByte));
 		}
