@@ -1,11 +1,15 @@
 package com.sequencing.oauth.core;
 
+import java.io.Serializable;
+
 /**
  * Class that defines token attributes needed for making data 
  * access requests to sequencing.com backend 
  */
-public class Token
+public class Token implements Serializable
 {
+	private static final long serialVersionUID = -3465943489440860180L;
+
 	/**
 	 * Access token value
 	 */

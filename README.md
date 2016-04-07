@@ -25,14 +25,14 @@ Integration as simple as adding following snippet to your pom.xml if you use Mav
 <dependency>
 	<groupId>com.sequencing</groupId>
 	<artifactId>oauth2-core</artifactId>
-	<version>1.0</version>
+	<version>1.2</version>
 </dependency>
 ```
 
 or following line to the "dependencies" section of your build.gradle
 
 ```
-compile 'com.sequencing:oauth2-core:1.0'
+compile 'com.sequencing:oauth2-core:1.2'
 ```
 
 Resources

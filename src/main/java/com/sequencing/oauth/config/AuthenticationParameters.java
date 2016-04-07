@@ -1,5 +1,6 @@
 package com.sequencing.oauth.config;
 
+import java.io.Serializable;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.SecureRandom;
@@ -12,8 +13,9 @@ import org.slf4j.LoggerFactory;
  * Defines all required configuration parameters needed to carry on authentication
  * against sequencing.com backend 
  */
-public class AuthenticationParameters
+public class AuthenticationParameters implements Serializable
 {
+	private static final long serialVersionUID = 6823605174079742322L;
 	public static final String DEFAULT_AUTH_URI = "https://sequencing.com/oauth2/authorize"; 
 	public static final String DEFAULT_TOKEN_URI = "https://sequencing.com/oauth2/token"; 
 	public static final String DEFAULT_API_URI = "https://api.sequencing.com"; 
@@ -203,7 +205,8 @@ public class AuthenticationParameters
 				messageDigest.update(randomStr.getBytes("UTF8"));
 				resultByte = messageDigest.digest();
 			} catch (Exception e) {
-				throw new RuntimeException(e);
+				log.debug("Error generate md5 hash code", e);
+				e.printStackTrace();
 			}
 			return new String(Hex.encodeHex(resultByte));
 		}

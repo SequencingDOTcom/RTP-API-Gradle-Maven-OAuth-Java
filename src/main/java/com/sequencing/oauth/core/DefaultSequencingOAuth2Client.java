@@ -1,5 +1,6 @@
 package com.sequencing.oauth.core;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,8 +21,9 @@ import com.sequencing.oauth.helper.JsonHelper;
 /**
  * Default implementation of SequencingOAuth2Client interface
  */
-public class DefaultSequencingOAuth2Client implements SequencingOAuth2Client 
+public class DefaultSequencingOAuth2Client implements SequencingOAuth2Client, Serializable
 {
+	private static final long serialVersionUID = 367801346184616920L;
 	private AuthenticationParameters parameters;
 	private volatile Token token;
 	
@@ -214,6 +216,6 @@ public class DefaultSequencingOAuth2Client implements SequencingOAuth2Client
 			builder.append("&");
 			builder.append(listOfAttributes.get(i));
 		}
-		return listOfAttributes.toString();
+		return builder.toString();
 	}
 }
