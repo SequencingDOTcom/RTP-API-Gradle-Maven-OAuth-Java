@@ -1,4 +1,4 @@
-# Maven plugin for implementing Sequencing.com's OAuth2 and File Selector in Java applications
+# Gradle and Maven plugin for implementing Sequencing.com's OAuth2 and File Selector in Java applications
 
 This repo contains a Gradle and Maven plugin that will quickly add Sequencing.com's OAuth2 authentication and File Selector to your Java application. This will allow your app to securely connect to and use Sequencing.com's APIs and [App Chains](https://sequencing.com/app-chains/). 
 
